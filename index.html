@@ -1,0 +1,1136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kangaroo refer website</title>
+<!-- bootstrap css -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<!-- font awesome  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- swiper Slider  -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+<!-- main website css  -->
+  <link rel="stylesheet" href="/css/main.css">
+
+</head>
+
+<body>
+
+<!-- navbar start  -->
+<div class="head_nav sticky-top">
+  <!-- top header  -->
+  <div class="first_header d-none d-lg-block">
+    <div class="container w_180">
+      <div class="row">
+
+        <div class="col-6 w_180 img_top1">
+          <a class="navbar-brand" href="#">
+            <img src="/img/kangaroo logo.svg" class="img_top_header img-fluid" alt="">
+          </a>
+        </div>
+
+        <div class="col-6 w_180 icons_top1">
+          <ul class="nav justify-content-center icons_top2">
+            <li class="nav-item icons_top3">
+              <a class=" navbar-brand" href="#">
+                <i class="fa-solid fa-calendar-day top_icn"></i>
+                <p class="top_icn_txt">Book Now</p>
+              </a>
+            </li>
+            <li class="nav-item icons_top3">
+              <a class="navbar-brand" href="#">
+                <i class="fa-solid fa-map-location-dot top_icn"></i>
+                <p class="top_icn_txt">Find Us</p>
+              </a>
+            </li>
+            <li class="nav-item icons_top3">
+              <a class="navbar-brand" href="#">
+                <i class="fa-solid fa-map-location-dot top_icn"></i>
+                <p class="top_icn_txt">Find Us</p>
+              </a>
+            </li>
+            <li class="nav-item icons_top3">
+              <a class="navbar-brand" href="#">
+                <i class="fa-solid fa-headset top_icn"></i>
+                <p class="top_icn_txt">Connect</p>
+              </a>
+            </li>
+            <li class="nav-item icons_top3">
+              <a class="navbar-brand" href="#">
+                <i class="fa-solid fa-headset top_icn"></i>
+                <p class="top_icn_txt">Connect</p>
+              </a>
+            </li>
+            <li class="nav-item icons_top3">
+              <a class="navbar-brand" href="#">
+                <i class="fa-solid fa-user top_icn"></i>
+                <p class="top_icn_txt">Sign Up</p>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+<!-- last header  -->
+  <div class="menu_wrapper">
+
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+  
+        <a class="navbar-brand d-lg-none" href="#">
+          <img src="/img/kangaroo logo.svg" class="img_Proper img-fluid" alt="">
+        </a>
+  
+        <div class="dropdown">
+          <div class="lang_drop d-none d-lg-block">
+            <span class="text-white">Language:</span>
+            <button class="lang_btn btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              English
+            </button>
+            <ul class="dropdown-menu drop_lang_styl">
+              <li><button class="dropdown-item drop_lang_items" type="button">Arabic</button></li>
+              <li><button class="dropdown-item drop_lang_items" type="button">Hindi</button></li>
+              <li><button class="dropdown-item drop_lang_items" type="button">Urdhu</button></li>
+            </ul>
+          </div>
+        </div>
+  
+        <button class="navbar-toggler pe-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <!-- <span class="navbar-toggler-icon"></span> -->
+          <i class="fa-solid fa-bars-staggered navbar_toggler_icon_mn"></i>
+          <!-- <i class="fa-solid fa-bars-staggered navbar-toggler-icon"></i> -->
+        </button>
+  
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+  
+          <div class="offcanvas-header last_header1">
+  
+            <div class="row justify-content-start last_header2">
+              <a class="col-3 navbar-brand offcan_icon" href="#">
+                <i class="fa-solid fa-calendar-day offcan_icn"></i>
+                <p>Book Now</p>
+              </a>
+              <a class="col-3 navbar-brand offcan_icon" href="#">
+                <i class="fa-regular fa-calendar-days offcan_icn"></i>
+                <p>Events</p>
+              </a>
+              <a class="col-3 navbar-brand offcan_icon" href="#">
+                <i class="fa-solid fa-map-location-dot offcan_icn"></i>
+                <p>Find Us</p>
+              </a>
+              <a class="col-3 navbar-brand offcan_icon" href="#">
+                <i class="fa-solid fa-headset offcan_icn"></i>
+                <p>Connect</p>
+              </a>
+              <a class="col-3 navbar-brand offcan_icon" href="#">
+                <i class="fa-solid fa-headset offcan_icn"></i>
+                <p>Socials</p>
+              </a>
+              <a class="col-3 navbar-brand offcan_icon" href="#">
+                <i class="fa-solid fa-user offcan_icn"></i>
+                <p>Sign Up</p>
+              </a>
+            </div>
+  
+            <button type="button" class="btn-close btn_close_mn" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  
+          </div>
+  
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+              <li class="nav-item nav_itemss">
+                <a class="nav-link nav_linkss mx-lg-2" href="#">Home</a>
+              </li>
+              <li class="nav-item nav_itemss dropdown dropdown_mega position-static">
+                  <a class="nav-link nav_linkss dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">
+                    Services
+                  </a>
+                  <div class="dropdown-menu drp_mega_menus">
+                    <div class="mega_content px-md-4 mx-3">
+                      <div class="container">
+                          <div class="row mega__menu__bg">
+                              <div class="col-lg-3 py-4 px-xl-5 px-4 ser_mega_menu_1">
+                                  <div class="img_in_mega d-none d-lg-block">
+                                      <img src="/img/1.png" class="img-fluid mx-auto" alt="">
+                                  </div>
+                              </div>
+                              <div class="col-lg-3  py-4 px-xl-5 px-4 ser_mega_menu_1">
+                                  <h5 class="mega_drp_heading text-center">Academic Services</h5>
+                                  <div class="list-group">
+                                      <a href="#" class="list-group-item">Enrollment</a>
+                                      <a href="#" class="list-group-item">OSHC</a>
+                                      <a href="#" class="list-group-item">Scholarship</a>
+                                      <a href="#" class="list-group-item">IELTS/PTE Preparation</a>
+                                      <a href="#" class="list-group-item">Free Career Counseling</a>
+                                  </div>
+                              </div>
+                              <div class="col-lg-3 py-4 px-xl-5 px-4 ser_mega_menu_1">
+                                <h5 class="mega_drp_heading text-center">Support Services</h5>
+                                <div class="list-group">
+                                    <a href="#" class="list-group-item">Tax Return</a>
+                                    <a href="#" class="list-group-item">Airport Picup</a>
+                                    <a href="#" class="list-group-item">Accomondation</a>
+                                    <a href="#" class="list-group-item">Bank Account Opening</a>
+                                    <a href="#" class="list-group-item">Genarel Health Insurance</a>
+                                </div>
+                              </div>
+                              <div class="col-lg-3 py-4 px-xl-5 px-4 ser_mega_menu_1">
+                                  <h5 class="mega_drp_heading text-center">Visa Services</h5>
+                                  <div class="list-group">
+                                    <a href="#" class="list-group-item">Student Visa</a>
+                                    <a href="#" class="list-group-item">Partner Visa</a>
+                                    <a href="#" class="list-group-item">Visitor Visa</a>
+                                    <a href="#" class="list-group-item">Migration Servies</a>
+                                    <a href="#" class="list-group-item">Regional Sponsored Visa</a>
+                                </div>
+                              </div>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+              </li>
+              <li class="nav-item nav_itemss dropdown dropdown_mega position-static">
+                <a class="nav-link nav_linkss dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">
+                  About Us
+                </a>
+                <div class="dropdown-menu drp_mega_menus2">
+                  <div class="mega_content px-md-4 mx-3">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-lg-6 px-lg-5 px-xl-5 py-2 px-2 d-none d-lg-block">   
+                          <div class="card_mega_sec">
+                            <div class="card card_mega" style="width: 100%;">
+                              <div class="card-body card_text_cont pb-3">
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique, aspernatur recusandae Dolores temporibus repellat enim aperiam, eius ex inventore et laborum velit.</p>
+                              </div>
+                              <div class="ratio ratio-16x9 card_vid_cont">
+                                <iframe src="https://www.youtube.com/embed/zmjKQM1TBtk?si=1RxqIWgkm8hY4Sd1" title="YouTube video" allowfullscreen></iframe>
+                              </div> 
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-6 ps-lg-5 ps-xl-5 ps-4">
+                          <div class="row about_menu_mega">
+                            <div class="col-12 px-4">
+                              <h5 class="text-center mega_drp_heading_h5">About Us</h5>
+                            </div>
+                            <div class="col-12 ps-lg-5 ps-xl-5 px-4">
+                              <div class="row">
+                                <div class="col-lg-6">
+                                  <div class="list-group">
+                                    <a href="#" class="list-group-item">Enrollment</a>
+                                    <a href="#" class="list-group-item">OSHC</a>
+                                    <a href="#" class="list-group-item">Scholarship</a>
+                                    <a href="#" class="list-group-item">IELTS/PTE Preparation</a>
+                                    <a href="#" class="list-group-item">Free Career Counseling</a>
+                                  </div>
+                                </div>
+                                <div class="col-lg-6">
+                                  <div class="list-group">
+                                    <a href="#" class="list-group-item">Enrollment</a>
+                                    <a href="#" class="list-group-item">OSHC</a>
+                                    <a href="#" class="list-group-item">Scholarship</a>
+                                    <a href="#" class="list-group-item">IELTS/PTE Preparation</a>
+                                    <a href="#" class="list-group-item">Free Career Counseling</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item nav_itemss dropdown dropdown_mega position-static">
+                <a class="nav-link nav_linkss dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">
+                  Study Destinations
+                </a>
+                <div class="dropdown-menu drp_mega_menus3">
+                  <div class="mega_content px-md-4 mx-3">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-lg-8 ps-lg-5 ps-xl-5 ps-4">
+                          <div class="row stdy_dest__menu_mega">
+                            <div class="col-12 pt-lg-5 pb-lg-2 px-4">
+                              <h5 class="text-center std_mega_drp_heading_h5">Study Destinations</h5>
+                            </div>
+                            <div class="col-12 ps-lg-5 ps-xl-5 px-4">
+                              <div class="row justify-content-center">
+                                <div class="col-lg-4">
+                                  <div class="list-group">
+                                    <a href="#" class="list-group-item stdy_des_list_itemss">Australia</a>
+                                    <a href="#" class="list-group-item stdy_des_list_itemss">Europe</a>
+                                    <a href="#" class="list-group-item stdy_des_list_itemss">United States</a>
+                                  </div>
+                                </div>
+                                <div class="col-lg-4">
+                                  <div class="list-group">
+                                    <a href="#" class="list-group-item stdy_des_list_itemss">Canada</a>
+                                    <a href="#" class="list-group-item stdy_des_list_itemss">Malaysia</a>
+                                    <a href="#" class="list-group-item stdy_des_list_itemss">United Kindom</a>
+                                  </div>
+                                </div>
+                                <div class="col-lg-4">
+                                  <div class="list-group">
+                                    <a href="#" class="list-group-item stdy_des_list_itemss">China</a>
+                                    <a href="#" class="list-group-item stdy_des_list_itemss">New Zealand</a>
+                                    <a href="#" class="list-group-item stdy_des_list_itemss">United Arab Emirates</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row stdy_dest__menu_mega">
+                            <div class="col-12 pt-lg-5 pb-lg-2 px-4">
+                              <h5 class="text-center std_mega_drp_heading_h5">Study Abroad</h5>
+                            </div>
+                            <div class="col-12 ps-lg-5 ps-xl-5">
+                              <div class="row justify-content-center">
+                                <div class="col-lg-4">
+                                  <div class="list-group">
+                                    <a href="#" class="list-group-item stdy_des_list_itemss1">Study Guide</a>
+                                  </div>
+                                </div>
+                                <div class="col-lg-4">
+                                  <div class="list-group">
+                                    <a href="#" class="list-group-item stdy_des_list_itemss1">Global Career Pathway</a>
+                                  </div>
+                                </div>
+                                <div class="col-lg-4">
+                                  <div class="list-group">
+                                    <a href="#" class="list-group-item stdy_des_list_itemss1">Networking & Socialization</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 px-lg-5 px-xl-5 py-2 px-2 d-none d-lg-block">   
+                          <div class="img_in_mega_stdy_des">
+                            <img src="/img/6.png" class="img-fluid mx-auto" alt="">
+                        </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item nav_itemss dropdown dropdown_mega position-static">
+                <a class="nav-link nav_linkss dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">
+                  Become Part of Us
+                </a>
+                <div class="dropdown-menu drp_mega_menus4">
+                  <div class="mega_content px-md-4 mx-3">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-lg-8 px-lg-5 px-xl-5 py-5 px-2 d-none d-lg-block">   
+                          <div class="card_mega_sec">
+                            <div class="card card_mega" style="width: 100%;">
+                              <div class="ratio ratio-16x9 card_vid_cont">
+                                <iframe src="https://www.youtube.com/embed/zmjKQM1TBtk?si=1RxqIWgkm8hY4Sd1" title="YouTube video" allowfullscreen></iframe>
+                              </div> 
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 ps-lg-5 ps-xl-5 ps-4">
+                          <div class="row about_menu_mega">
+                            <div class="col-12 px-4">
+                              <h5 class="text-center joinus_drp_heading_h5" style="font-size: 30px;">Join Us</h5>
+                            </div>
+                            <div class="col-12 ps-lg-5 ps-xl-5 px-4">
+                              <div class="list-group">
+                                <a href="#" class="list-group-item joinus_des_list_itemss">Refar & Earn</a>
+                                <a href="#" class="list-group-item joinus_des_list_itemss">Career with us</a>
+                                <a href="#" class="list-group-item joinus_des_list_itemss">Become an Agent</a>
+                                <a href="#" class="list-group-item joinus_des_list_itemss">Become an Institute Partner</a>
+                                <a href="#" class="list-group-item joinus_des_list_itemss">Become a Health Partn</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+  
+        </div>
+      </div>
+    </nav>
+
+  </div>
+</div>
+<!-- navbar end  -->
+
+<!-- carousel start  -->
+<div class="carousel_section">
+  <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="/img/Slider/s_1_1.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="/img/Slider/s_2.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="/img/Slider/s_3.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="/img/Slider/s_4.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+<!-- carousel end  -->
+
+<!-- service part start -->
+<div class="two_service_part">
+<!-- Service card start  -->
+  <div class="service_card">
+    <div class="container">
+      <div class="row card_ser_box justify-content-center">
+        <div class="col-12 col-md-6 col-lg-3 pt-md-3 pt-sm-3 col-xl-3">
+          <div class="service_card_max card_rt_border pt-lg-4">
+            <div class="services-top pb-4">
+              <i class="fa-solid fa-graduation-cap pb-3"></i>
+              <h5>Academic Services</h5>
+            </div>
+            <p>This services Services that help International Student in every steps of their career goal</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 pt-md-3 pt-sm-3 col-xl-3">
+          <div class="service_card_max card_rt_border pt-lg-4">
+            <div class="services-top pb-4">
+              <i class="fa-solid fa-door-open pb-3"></i>
+              <h5>Essential Services</h5>
+            </div>
+            <p>Apart from the academic services we help our cilents with additional services</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 pt-md-3 pt-sm-3 col-xl-3">
+          <div class="service_card_max card_rt_border pt-lg-4">
+            <div class="services-top pb-4">
+              <i class="fa-solid fa-passport pb-3"></i>
+              <h5>Visa Services</h5>
+            </div>
+            <p>We Help our Clients with visa lodgement and help them find the right visa option for their career</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 col-xl-3 pt-md-3 pt-sm-3 pb-3">
+          <div class="service_card_max card_rt_border pt-lg-4 mx-1">
+            <div class="services-top pb-4">
+              <i class="fa-solid fa-certificate pb-3"></i>
+              <h5>Post-Academic Services</h5>
+            </div>
+            <p>After graduation some of our clients need additional steps to reach their career goal</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- Service card end  -->
+
+<!-- we help start -->
+  <div class="we_help_part">
+    <div class="why_we">
+      <div class="container">
+        <div class="row ">
+          <div class="col-lg-4">
+            <h1 class="we_help_part_lft_h1">How do we help</h1>
+            <p><i class="we_help_part_lft_i">Five Easy Steps to Follow</i></p>
+          </div>
+<!-- Swiper slider -->
+          <div class="col-lg-8">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper mySwiper_sub container">
+              <div class="row swiper-slide">
+                <div class="col-lg-3 swiper_icon justify-content-center">
+                  <span><i class="fa-regular fa-handshake"></i></span>
+                </div>
+                <div class="col-lg-7 swip">
+                  <h3>Counseling</h3>
+                  <p>counseling sessions allow us to find out more about you, and you to find out what information you need to know.</p>
+                </div>
+              </div>
+              <div class="swiper-slide justify-content-center">
+                <div class="col-lg-3">
+                  <span><i class="fa-regular fa-handshake"></i></span>
+                </div>
+                <div class="col-lg-7">
+                  <h3>Document Validation</h3>
+                  <p>We will verify the authenticity of all the documentation collected during your application processes.</p>
+                </div>
+              </div>
+              <div class="swiper-slide justify-content-center">
+                <div class="col-lg-3">
+                  <span><i class="fa-regular fa-handshake"></i></span>
+                </div>
+                <div class="col-lg-7">
+                  <h3>Submission</h3>
+                  <p>Upon collecting and verifying all documentation, Kangaroo Global will lodge the applications on your behalf.</p>
+                </div>
+              </div>
+              <div class="swiper-slide justify-content-center">
+                <div class="col-lg-3">
+                  <span><i class="fa-regular fa-handshake"></i></span>
+                </div>
+                <div class="col-lg-7">
+                  <h3>Track your progress</h3>
+                  <p>Upon Completing submission you will be able to track your application in real-time.</p>
+                </div>
+              </div>
+              <div class="swiper-slide justify-content-center">
+                <div class="col-lg-3">
+                  <span><i class="fa-regular fa-handshake"></i></span>
+                </div>
+                <div class="col-lg-7">
+                  <h3>Counseling</h3>
+                  <p>counseling sessions allow us to find out more about you, and you to find out what information you need to know. </p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- we help end -->
+</div>
+<!-- service part end -->
+
+<!-- portfolio section start -->
+<div class="portfolio_section">
+  <div class="itemsContainer">
+    <div class="container">
+      <div class="heading">
+        <h1 class="text-center pb-3">Study Destination</h1>
+      </div>
+      <div class="row">
+        <div class="portfolio_section_img col-12 col-md-6 col-lg-3">
+          <a href="#" target="_blank"><img src="/img/Portfolios/port-1.png" class="item_imgs img-fluid rounded" alt="Australia"></a>
+          <div class="imageOverlay"></div>
+          <div class="portfolio_text">
+            <a href="#" target="_blank">
+              <img class="img_part" src="/img/Portfolios/Country/australia.png" alt="australia">
+              <p class="img_text">Australia</p>
+            </a>
+          </div>
+        </div>
+        <div class="portfolio_section_img col-12 col-md-6 col-lg-3">
+          <a href="#" target="_blank"><img src="/img/Portfolios/port-2.png" class="item_imgs img-fluid rounded" alt="Canada"></a>
+          <div class="imageOverlay"></div>
+          <div class="portfolio_text">
+            <a href="#" target="_blank">
+              <img class="img_part" src="/img/Portfolios/Country/canada.png" alt="Canada"> 
+              <p class="img_text">Canada</p>
+            </a>
+          </div>
+        </div>
+        <div class="portfolio_section_img col-12 col-md-6 col-lg-3">
+          <a href="#" target="_blank"><img src="/img/Portfolios/port-3.png" class="item_imgs img-fluid rounded" alt="New Zealand"></a>
+          <div class="imageOverlay"></div>
+          <div class="portfolio_text">
+            <a href="#" target="_blank">
+              <img class="img_part" src="/img/Portfolios/Country/new-zealand.png" alt="New Zealand"> 
+            <p class="img_text">New Zealand</p>
+            </a>
+          </div>
+        </div>
+        <div class="portfolio_section_img col-12 col-md-6 col-lg-3">
+          <a href="#" target="_blank"><img src="/img/Portfolios/port-4.png" class="item_imgs img-fluid rounded" alt="Malaysia"></a>
+          <div class="imageOverlay"></div>
+          <div class="portfolio_text">
+            <a href="#" target="_blank">
+              <img class="img_part" src="/img/Portfolios/Country/malaysia.png" alt="Malaysia"> 
+              <p class="img_text">Malaysia</p>
+            </a>
+          </div>
+        </div>
+        <div class="portfolio_section_img col-12 col-md-6 col-lg-3">
+          <a href="#" target="_blank"><img src="/img/Portfolios/port-5.png" class="item_imgs img-fluid rounded" alt="united arab emirates"></a>
+          <div class="imageOverlay"></div>
+          <div class="portfolio_text">
+            <a href="#" target="_blank">
+              <img class="img_part" src="/img/Portfolios/Country/united-arab-emirates.png" alt="united arab emirates"> 
+              <p class="img_text">United Arab Emirates</p>
+            </a>
+          </div>
+        </div>
+        <div class="portfolio_section_img col-12 col-md-6 col-lg-3">
+          <a href="#" target="_blank"><img src="/img/Portfolios/port-6.png" class="item_imgs img-fluid rounded" alt="United Kingdom"></a>
+          <div class="imageOverlay"></div>
+          <div class="portfolio_text">
+            <a href="#" target="_blank">
+              <img class="img_part" src="/img/Portfolios/Country/united-kingdom.png" alt="United Kingdom"> 
+              <p class="img_text">United Kingdom</p>
+            </a>
+          </div>
+        </div>
+        <div class="portfolio_section_img col-12 col-md-6 col-lg-3">
+          <a href="#" target="_blank"><img src="/img/Portfolios/port-7.png" class="item_imgs img-fluid rounded" alt="United State"></a>
+          <div class="imageOverlay"></div>
+          <div class="portfolio_text">
+            <a href="#" target="_blank">
+              <img class="img_part" src="/img/Portfolios/Country/usa.png" alt="United State"> 
+              <p class="img_text">United State</p>
+            </a>
+          </div>
+        </div>
+        <div class="portfolio_section_img col-12 col-md-6 col-lg-3">
+          <a href="#" target="_blank"><img src="/img/Portfolios/port-8.png" class="item_imgs img-fluid rounded" alt="Europe"></a>
+          <div class="imageOverlay"></div>
+          <div class="portfolio_text">
+            <a href="#" target="_blank">
+              <img class="img_part" src="/img/Portfolios/Country/europe.png" alt="Europe"> 
+              <p class="img_text">Europe</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- portfolio section end -->
+
+<!-- Achievements part start -->
+<div class="achievement">
+  <div class="container">
+    <h1 class="achievement_h1 text-center">Achievement</h1>
+    <div class="row justify-content-center">
+      <div class="achiv_cont col-12 col-lg-2 text-center">
+        <div class="achievement_top">
+          <h2>15</h2>
+          <p>Offices Globally</p>
+        </div>
+        <div class="achievement_bottom">
+          <i class="fa-regular fa-building pb-3"></i>
+          <p>Head offiece in Sydney, Australia with offices in Bangladesh, China, Colombia, India, Mongolia, Nepal, Pakistan, UK</p>
+        </div>
+      </div>
+      <div class="achiv_cont col-12 col-lg-2 text-center">
+        <div class="achievement_top">
+          <h2>10</h2>
+          <p>Years of Experience</p>
+        </div>
+        <div class="achievement_bottom">
+          <i class="fa-solid fa-trophy pb-3"></i>
+          <p>We have been managing our clients risk through our centre of excellence</p>
+        </div>
+      </div>
+      <div class="achiv_cont col-12 col-lg-2 text-center">
+        <div class="achievement_top">
+          <h2>100+</h2>
+          <p>Team Members</p>
+        </div>
+        <div class="achievement_bottom">
+          <i class="fa-solid fa-people-group pb-3"></i>
+          <p>Our expert advisors deliver highly qualified counseling & insights into the worlds best study options</p>
+        </div>
+      </div>
+      <div class="achiv_cont col-12 col-lg-2 text-center">
+        <div class="achievement_top">
+          <h2>7000+</h2>
+          <p>Student Served</p>
+        </div>
+        <div class="achievement_bottom">
+          <i class="fa-solid fa-graduation-cap pb-3"></i>
+          <p>Our unique, innovative, scalable team is been proving guidance from application to enrolment</p>
+        </div>
+      </div>
+      <div class="achiv_cont col-12 col-lg-2 text-center">
+        <div class="achievement_top">
+          <h2>350+</h2>
+          <p>Institute representing</p>
+        </div>
+        <div class="achievement_bottom build_office_last">
+          <i class="fa-solid fa-building-columns pb-3"></i>
+          <p>We represent Universities, Vocational colleges and schools around the globe</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="3a3737" fill-opacity="1" d="M0,224L80,202.7C160,181,320,139,480,149.3C640,160,800,224,960,224C1120,224,1280,160,1360,128L1440,96L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg> -->
+</div>
+<!-- Achievements part end -->
+
+<!-- course part start  -->
+<div class="course_section">
+  <div class="container pt-5 pb-5">
+    <h1 class="course_section_h1 text-center pb-3">Popular Courses</h1>
+    <div class="row">
+      <div class="col-12 col-md-6 col-lg-3">
+        <div class="course_card">
+          <div class="card_top text-center pb-4">
+            <i class="fa-solid fa-chalkboard-user card_top_i"></i>
+            <h1 class="card_top_h1">Education & Training</h1>
+          </div>
+          <div class="card_bottom">
+            <ul class="card_list">
+              <li>Childhood Education</li>
+              <li>Educational Psychology</li>
+              <li>Education Management</li>
+              <li>Teacher Training PGCE</li>
+              <li>Couseling Study</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3">
+        <div class="course_card">
+          <div class="card_top text-center pb-4">
+            <i class="fa-solid fa-gears card_top_i"></i>
+            <h1 class="card_top_h1">Engineering</h1>
+          </div>
+          <div class="card_bottom">
+            <ul class="card_list">
+              <li>Civil Engineering</li>
+              <li>Electrical Engineering</li>
+              <li>Mechanical Engineering</li>
+              <li>Telecommunications</li>
+              <li>Bio-Medical Engineering</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3">
+        <div class="course_card">
+          <div class="card_top text-center pb-4">
+            <i class="fa-solid fa-heart-pulse card_top_i"></i>
+            <h1 class="card_top_h1">Health and Medicine</h1>
+          </div>
+          <div class="card_bottom">
+            <ul class="card_list">
+              <li>Nursing & Midwifery</li>
+              <li>Medicine & Medical Studie</li>
+              <li>Psychologyt</li>
+              <li>Nutrition & Health</li>
+              <li>Dentistry</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3">
+        <div class="course_card">
+          <div class="card_top text-center pb-4">
+            <i class="fa-solid fa-computer card_top_i"></i>
+            <h1 class="card_top_h1">Computer Science & IT</h1>
+          </div>
+          <div class="card_bottom">
+            <ul class="card_list">
+              <li>Networking & Securit</li>
+              <li>Software Engineering</li>
+              <li>Information Technolog</li>
+              <li>Computer Science</li>
+              <li>Multimedia</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3">
+        <div class="course_card">
+          <div class="card_top text-center pb-4">
+            <i class="fa-solid fa-hands-holding-circle card_top_i"></i>
+            <h1 class="card_top_h1">Social Studies & Media</h1>
+          </div>
+          <div class="card_bottom">
+            <ul class="card_list">
+              <li>Social Work</li>
+              <li>Educational Psychology</li>
+              <li>Enviromental Managemen</li>
+              <li>Economics</li>
+              <li>International Relations</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3">
+        <div class="course_card">
+          <div class="card_top text-center pb-4">
+            <i class="fa-solid fa-suitcase-rolling card_top_i"></i>
+            <h1 class="card_top_h1">Travel & Hospitality</h1>
+          </div>
+          <div class="card_bottom">
+            <ul class="card_list">
+              <li>Hotel Management</li>
+              <li>Aviation</li>
+              <li>Catering</li>
+              <li>Leisure Managemen</li>
+              <li>Travel & Tourism </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3">
+        <div class="course_card">
+          <div class="card_top text-center pb-4">
+            <i class="fa-regular fa-pen-to-square card_top_i"></i>
+            <h1 class="card_top_h1">Architecture & Construction</h1>
+          </div>
+          <div class="card_bottom">
+            <ul class="card_list">
+              <li>Architecture</li>
+              <li>Planning</li>
+              <li>Construction</li>
+              <li>Property Management</li>
+              <li>Surveying</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3">
+        <div class="course_card">
+          <div class="card_top text-center pb-4">
+            <i class="fa-solid fa-scale-balanced card_top_i"></i>
+            <h1 class="card_top_h1">Law & Legal Studies</h1>
+          </div>
+          <div class="card_bottom">
+            <ul class="card_list">
+              <li>Civil law</li>
+              <li>Legal Law</li>
+              <li>International Law</li>
+              <li>Public Law</li>
+              <li>Legal Studies</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- course part end  -->
+
+<!-- Country Section start -->
+<div class="country_section">
+  <div class="container-fluid">
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item country_section_img active">
+          <img src="/img/Slider/2/Australia.png" class="d-block w-100" alt="Australia">
+        </div>
+        <div class="carousel-item country_section_img">
+          <img src="/img/Slider/2/New-Zealand.png" class="d-block w-100" alt="New Zealand">
+        </div>
+        <div class="carousel-item country_section_img">
+          <img src="/img/Slider/2/Canada.png" class="d-block w-100" alt="Canada">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Country Section end -->
+
+<!-- Counseling part start -->
+<div class="Counseling">
+  <div class="container">
+    <div class="row pt-4 pb-4">
+      <div class="col-12 col-md-3 col-lg-3">
+        <h5 class="Counseling_h5">Live Counseling</h5>
+      </div>
+      <div class="col-12 col-md-6 col-lg-6">
+        <p class="Counseling_p">Relax!  Our counselors are available to chat with you online!</p>
+        <p class="Counseling_p">If our clients need assistance and are unable to come into or call our office, we can still provide our services over the internet via live text chat</p>
+      </div>
+      <div class="col-12 col-md-3 col-lg-3 Counseling_btn_div">
+        <a href="#" type="button" class="btn Counseling_btn">Book Now</a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Counseling part end -->
+
+<!-- SERVICE & ASSISTANT start -->
+<div class="service_assistant_section_1">
+  <div class="container-fluid">
+    <div class="row justify-content-center pb-5 pt-5">
+      <div class="col-12 col-lg-5">
+        <h4 class="text-center text-white ser_assis_h4">SELF SERVICE</h4>
+        <div class="part_1">
+          <a href="#"  type="button" class="btn button_ser_assis mb-3">
+            4 STEPS TO FIND THE RIGHT COURSE & DESTINATION
+            <span><i class="fa-solid fa-chevron-right"></i></span>
+          </a>
+        </div>
+        <div class="part_1">
+          <a href="#"  type="button" class="btn button_ser_assis">
+            I KNOW THE COURSE LET ME APPLY
+            <span><i class="fa-solid fa-chevron-right"></i></span>
+          </a>
+        </div>
+      </div>
+      <div class="col-12 col-lg-5">
+        <h4 class="text-center text-white part_2_h4">NEED ASSISTANCE</h4>
+        <div class="part_1">
+          <a href="#"  type="button" class="btn button_ser_assis  mb-3">
+            HELP ME CHOOSE A COURSE AND APPLY
+            <span><i class="fa-solid fa-chevron-right"></i></span>
+          </a>
+        </div>
+        <div class="part_1">
+          <a href="#" type="button" class="btn button_ser_assis">
+            I AM A GAURDIAN OR PARENT , CONTACT ME
+            <span><i class="fa-solid fa-chevron-right"></i></span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="service_assistant_section_2">
+  <div class="container-fluid">
+    <div class="row justify-content-center">
+      <div class="col-10 col-lg-10">
+        <img src="/img/p1.png" class="img-fluid" alt="aervices and assistant">
+      </div>
+    </div>
+  </div>
+</div>
+<!-- SERVICE & ASSISTANT end -->
+
+<!-- Success Stories start  -->
+<div class="success_stories_section pb-5">
+  <div class="container-fluid">
+    <h2 class="success_stories_h2 text-center">Achievement</h2>
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-4 col-lg-2 text-center">
+        <div class="stories_top">
+          <img src="/img/Slider/2/stories/1.jpg" alt="success story">
+          <span><i class="fa-solid fa-circle-play"></i></span>
+          <h4>Pokharel Aayusha</h4>
+        </div>
+        <div class="stories_bottom">
+          <p>Very friendly and comfortable environment. Everyone is very understanding. Would recommend everyone to visit here if you have any queries regarding visas and any educational counseling.</p>
+        </div>
+      </div>
+      <div class="col-12 col-md-4 col-lg-2 text-center">
+        <div class="stories_top">
+          <img src="/img/Slider/2/stories/2.jpg" alt="success story">
+          <span><i class="fa-solid fa-circle-play"></i></span>
+          <h4>Gagandeep Kaur</h4>
+        </div>
+        <div class="stories_bottom">
+          <p>This is one of the outstanding consultancy in Australia. I want to thank all the team members of Kangaroo global for helping me to make the decision regarding my university course. The best customer service and professional approach, thanks for your help.</p>
+        </div>
+      </div>
+      <div class="col-12 col-md-4 col-lg-2 text-center">
+        <div class="stories_top">
+          <img src="/img/Slider/2/stories/3.jpg" alt="success story">
+          <span><i class="fa-solid fa-circle-play"></i></span>
+          <h4>Stephanie Pardomo</h4>
+        </div>
+        <div class="stories_bottom">
+          <p>Very efficient kangaroo Global team with minimum cost did my student's tax return and came to know they do also international students recruitment and support services and referred my Colombian friends who are going to pursue study Australia</p>
+        </div>
+      </div>
+      <div class="col-12 col-md-4 col-lg-2 text-center">
+        <div class="stories_top">
+          <img src="/img/Slider/2/stories/4.jpg" alt="success story">
+          <span><i class="fa-solid fa-circle-play"></i></span>
+          <h4>Kangana Sharma</h4>
+        </div>
+        <div class="stories_bottom">
+          <p>I would like to highly recommend Kangaroo Global office in bur wood . i have been successfully process my Charles Darwin university application and dealing with them is just friendly and smooth transition. i would recommend anyone to Kangaroo Global</p>
+        </div>
+      </div>
+      <div class="col-12 col-md-4 col-lg-2 text-center">
+        <div class="stories_top">
+          <img src="/img/Slider/2/stories/5.jpg" alt="success story">
+          <span><i class="fa-solid fa-circle-play"></i></span>
+          <h4>Sandesh</h4>
+        </div>
+        <div class="stories_bottom">
+          <p>I want to writing to kangaroo global to show my appreciation how happy i am dealing with this office and heaps thanks to Sharmee and Sabbu Madam to making it all possible go Kangaroo Global</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Success Stories end  -->
+
+
+<footer class="footer_section">
+  <div class="footer_top">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-4 col-lg-4 footer_top_11">
+          <span class="footer_top_text_1">
+            <i class="fa-solid fa-mobile-screen footer_top_icon"></i>
+            +61 4 5021 3383 (Whatsapp)
+          </span>
+        </div>
+        <div class="col-12 col-md-4 col-lg-4 footer_top_11">
+          <p class="footer_top_text">Email: info@kangarooglobal.com.au</p>
+           
+          <p class="footer_top_text top_p">Mailing Address:</p>
+  
+          <p class="footer_top_text">PO BOX: 1513 Strathfield NSW 2135 Australia</p>
+        </div>
+        <div class="col-12 col-md-4 col-lg-4 footer_top_11">
+          <h6 class="footer_top_h6">Follow us</h6>
+          <span>
+            <a class="footer_top_icon_a" href="#" target="_blank"><i class="fa-brands fa-facebook footer_top_icon_lst"></i></a>
+            <a class="footer_top_icon_a" href="#" target="_blank"><i class="fa-brands fa-square-instagram footer_top_icon_lst"></i></a>
+            <a class="footer_top_icon_a" href="#" target="_blank"><i class="fa-brands fa-linkedin footer_top_icon_lst"></i></a>
+            <a class="footer_top_icon_a" href="#" target="_blank"><i class="fa-brands fa-youtube footer_top_icon_lst"></i></a>
+            <a class="footer_top_icon_a" href="#" target="_blank"><i class="fa-brands fa-square-whatsapp footer_top_icon_lst"></i></a>
+            <a class="footer_top_icon_a" href="#" target="_blank"><i class="fa-brands fa-weixin footer_top_icon_lst"></i></a>
+          </span>
+        </div>
+      </div>
+      <div class="download_our_app pt-3">
+        <div class="row">
+          <div class="col-12 col-lg-12">
+            <p class="text-center footer_top_h6">Download our app</p>
+          </div>
+          <div class="col-12 col-lg-12 footer_top_img">
+            <span>
+              <img src="/img/google-playstore.webp" alt="google play store">
+              <img src="/img/apple-store.webp" alt="apple store">
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="membership">
+        <div class="row">
+          <h6 class="pt-4 pb-3">Our Professional Membership and Affiliation</h6>
+          <div class="col-6 col-md-4 col-lg-2">
+            <img class="membership_img img-fluid" src="/img/memberships/1.png" alt="memberships">
+            <img class="membership_img img-fluid" src="/img/memberships/2.png" alt="memberships">
+          </div>
+          <div class="col-6 col-md-4 col-lg-2">
+            <img class="membership_img img-fluid" src="/img/memberships/3.png" alt="memberships">
+            <img class="membership_img img-fluid" src="/img/memberships/4.png" alt="memberships">
+          </div>
+          <div class="col-6 col-md-4 col-lg-2">
+            <img class="membership_img img-fluid" src="/img/memberships/5.png" alt="memberships">
+            <img class="membership_img img-fluid" src="/img/memberships/6.png" alt="memberships">
+          </div>
+          <div class="col-6 col-md-4 col-lg-2">
+            <img class="membership_img img-fluid" src="/img/memberships/7.png" alt="memberships">
+            <img class="membership_img img-fluid" src="/img/memberships/8.png" alt="memberships">
+          </div>
+          <div class="col-6 col-md-4 col-lg-2">
+            <img class="membership_img img-fluid" src="/img/memberships/9.png" alt="memberships">
+            <img class="membership_img img-fluid" src="/img/memberships/10.png" alt="memberships">
+          </div>
+          <div class="col-6 col-md-4 col-lg-2">
+            <img class="membership_img img-fluid" src="/img/memberships/11.png" alt="memberships">
+            <img class="membership_img img-fluid" src="/img/memberships/12.png" alt="memberships">
+          </div>
+        </div>
+      </div>
+      <div class="agents_section">
+        <div class="row justify-content-between">
+          <div class="col-12 col-lg-3">
+            <div class="row">
+              <div class="col">
+                <img class="img-fluid agents_section_img_lft" src="/img/agents/1.png" alt="agents">
+              </div>
+              <div class="col">
+                <img class="img-fluid agents_section_img_lft" src="/img/agents/2.png" alt="agents">
+              </div>
+            </div>
+            <div class="footer_payments">
+              <a href="#" type="button" class="btn footer_payment_btn text-center">Pay your fees</a>
+              <img class="img-fluid img_footer_payment" src="/img/agents/3.png" alt="payments">
+            </div>
+          </div>
+          <div class="col-12 col-lg-7">
+            <h6 class="footer_last_h6">Stay up to date with Kangaroo Global</h6>
+            <p class="footer_last_p">Subscribe to Our Newsletter today to receive updates on the latest news, releases, and special offers. We respect your privacy. Your Information is safe and will not be shared outside of Kangaroo Global</p>
+            <div class="input-group">
+              <input type="email" class="form-control btn_footer_form" placeholder="Enter your email" aria-label="Recipient's email" aria-describedby="button-addon2">
+              <button class="btn btn_footer_signup" type="button" id="button-addon2">Sign Up</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer_middle">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-8">
+          <ul class="nav justify-content-start">
+            <li class="nav-item">
+              <a class="nav-link footer_middle_list" href="#">Sustainability</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link footer_middle_list" href="#">Responsibility</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link footer_middle_list" href="#">Global Students Engagement</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-12 col-lg-4 footer_middle_icon_main">
+          <h5 class="footer_middle_icon_h5">Feedback</h5>
+          <h3 class="footer_middle_icon_h3">How did we do?</h3>
+          <span>
+            <i class="fa-regular fa-star footer_middle_icon"></i>
+            <i class="fa-regular fa-star footer_middle_icon"></i>
+            <i class="fa-regular fa-star footer_middle_icon"></i>
+            <i class="fa-regular fa-star footer_middle_icon"></i>
+            <i class="fa-regular fa-star footer_middle_icon"></i>
+          </span>
+        </div>
+      </div>
+      <p class="footer_middle_para">Our Global Presence</p>
+      <p class="footer_middle_para">Australia | Bangladesh | Colombia | China | India | Mongolia | Nepal | Pakistan | Slovakia| United Kingdom | Zimbabwe</p>
+      <div class="row footer_middle_final">
+        <div class="col-12 col-lg-8">
+          <div class="row">
+            <div class="col-12 col-lg-3">
+              <img class="img-fluid footer_middle_last_img" src="/img/agents/4.png" alt="agents">
+            </div>
+            <div class="col-12 col-lg-9 footer_middle_last_txt">
+              <p>We acknowledge Australian Aboriginal People and Torres Strait Islander People as the first inhabitants of the nation, and acknowledge Traditional Owners of the lands where our staff and students live, learn and work</p>
+            </div> 
+          </div>
+        </div>
+        <div class="col-12 col-lg-4 footer_nav_last">
+          <ul class="nav justify-content-start">
+            <li class="nav-item">
+              <a class="nav-link footer_middle_list_last" href="#">Privacy Policy</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link footer_middle_list_last" href="#">Term of use</a>
+            </li>
+          </ul>
+          <p class="footer_copyright">Copyright &copy; 2020 Kangaroo Global . All rights Reserved   |  ABN : 74 141 321 575</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="footer_last"></div>
+</footer>
+
+<!-- bootstrap js  -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <!-- swiper JS  -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<!-- main website css  -->
+  <script type="text/javascript" src="/js/main.js"></script>
+
+</body> 
+
+</html>
